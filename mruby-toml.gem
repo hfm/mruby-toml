@@ -1,0 +1,7 @@
+name: mruby-toml
+description: TOML class
+author: Okumura Takahiro
+website: https://github.com/hfm/mruby-toml
+protocol: git
+repository: https://github.com/hfm/mruby-toml.git
+license: MIT

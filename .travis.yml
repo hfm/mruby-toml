@@ -1,4 +1,12 @@
+sude: false
 language: c
+addons:
+  apt:
+    packages:
+      - rake
+      - bison
+      - git
+      - gperf
 compiler:
   - gcc
   - clang
@@ -13,10 +21,5 @@ matrix:
 branches:
   only:
     - master
-
-before_install:
-  - sudo apt-get -qq update
-install:
-  - sudo apt-get -qq install rake bison git gperf
 script:
   - rake test
